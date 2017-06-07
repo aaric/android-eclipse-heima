@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidTools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    androidTools:context=".ui.RemoteBindingActivity" >
+
+    <Button
+        android:onClick="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_remote_binding_text1" />
+
+    <Button
+        android:onClick="stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_remote_binding_text2" />
+
+    <Button
+        android:onClick="bind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_remote_binding_text3" />
+
+    <Button
+        android:onClick="execBindMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_remote_binding_text4" />
+
+    <Button
+        android:onClick="unbind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_remote_binding_text5" />
+
+    <Button
+        android:onClick="remoteBind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_remote_binding_text6" />
+
+    <Button
+        android:onClick="execRemoteBindMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_remote_binding_text7" />
+
+    <Button
+        android:onClick="execBroadcastServiceMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_remote_binding_text8" />
+
+</LinearLayout>
